@@ -1,5 +1,6 @@
 import SelectFruits from "./components/SelectFruits";
 import Bar from "./components/Bar";
+import Characters from "./components/Characters";
 import { useStore } from "./context/store";
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
         you have selected the {state.selectedFruit} fruit from another component
       </p>
       <Bar />
+      <Characters />
     </div>
   );
 }
